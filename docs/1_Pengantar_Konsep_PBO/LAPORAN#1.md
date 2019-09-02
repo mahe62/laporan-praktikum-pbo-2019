@@ -2,7 +2,9 @@
 
 ## Kompetensi
 
-(ketiklah kompetensi tiap praktikum di sini)
+Setelah menempuh materi percobaan ini, mahasiswa mampu mengenal:
+1. Perbedaan paradigma berorientasi objek dengan paradigma struktural
+2. Konsep dasar PBO
 
 ## Ringkasan Materi
 
@@ -12,41 +14,61 @@
 
 ### Percobaan 1
 
-(berisi penjelasan percobaan 1. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
+Percobaan 1
+Didalam percobaan ini, kita akan mendemonstrasikan bagaimana membuat class, membuat object, kemudian mengakses method didalam class tersebut.
 
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![contoh screenshot](img/contoh-schot1.PNG)
+![](img/p1.png)
 
 Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
 
 ### Percobaan 2
 
-(berisi penjelasan percobaan 2. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
+Didalam percobaan ini, akan didemonstrasikan salah satu fitur yang paling penting dalam PBO, yaitu inheritance. Disini kita akan membuat class SepedaGunung yang mana adalah turunan/warisan dari class Sepeda. Pada dasarnya class SepedaGunung adalah sama dengan class Sepeda, hanya saja pada sepeda gunung terdapat tipe suspensi. Untuk itu kita tidak perlu membuat class Sepeda Gunung dari nol, tapi kita wariskan saja class Sepeda ke class SepedaGunung.
 
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![contoh screenshot](img/contoh-schot1.PNG)
+![](img/p2.PNG)
 
 Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
 
 ## Pertanyaan
+**1. Sebutkan dan jelaskan aspek-aspek yang ada pada pemrograman berorientasi objek!**
 
-(silakan ketik pertanyaan di sini beserta jawabannya.)
+    Jawaban : Object, Class, Enkapsulasi, Inheritance dan Polimorfisme.
+
+**2. Apa yang dimaksud dengan object dan apa bedanya dengan class?**
+
+    Jawaban : Object adalah suatu rangkaian dalam program yang terdiri dari state dan behaviour. Object pada software dimodelkan sedemikian rupa sehingga mirip dengan objek yang ada di dunia nyata
+    
+    Class adalah blueprint atau prototype dari objek. Ambil contoh objek sepeda. Terdapat berbagai macam sepeda di dunia, dari berbagai merk dan model.
+**3. Sebutkan salah satu kelebihan utama dari pemrograman berorientasi objek dibandingkan dengan pemrograman struktural!**
+
+    Jawaban : Perbedaan mendasar antara pemrograman terstruktur dengan pemrograman berorientasi objek (PBO) atau Object Oriented Programming (OOP) adalah: Pada pemrograman terstruktur, program dipecah kedalam sub-program atau fungsi. Sedangkan pada PBO, program dipecah kedalam objek, dimana objek tersebut membungkus state dan method.
+
+**4. Pada class Sepeda, terdapat state/atribut apa saja?**
+
+    Jawaban : Merek, kecepatan dan gear
+
+**5. Tambahkan atribut warna pada class Sepeda.**
+
+    Jawaban : 
+
+![](img/p4.PNG)
+
+Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+
+**6. Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol?**
+
+    Jawaban : Karena class sepedagunung sudah extend atau sudah diwarisi oleh class sepeda.
 
 ## Tugas
-
-(silakan kerjakan tugas di sini beserta `screenshot` hasil kompilasi program. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
-
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
-
-![contoh screenshot](img/contoh-schot1.PNG)
+![](img/p3.PNG)
 
 Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
 
 ## Kesimpulan
 
-(Berisi simpulan yang telah diperoleh selama praktikum atau belajar pada pertemuan ini)
+Dengan belajar Praktikum ini mengerti Pemrograman Orientasi Objek
 
 ## Pernyataan Diri
 
@@ -56,4 +78,4 @@ Jika saya melakukan plagiasi, kecurangan, atau melanggar hak kekayaan intelektua
 
 Ttd,
 
-***(silakan isi nama lengkap di sini)***
+***(Muhammad Rizqi Mahendra)***
