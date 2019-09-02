@@ -29,7 +29,7 @@ Didalam percobaan ini, akan didemonstrasikan salah satu fitur yang paling pentin
 
 ![](img/p2.PNG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+[kode program](../../src/1_Pengantar_Konsep_PBO/sepedaGunung1841720144Rizqi.java)
 
 ## Pertanyaan
 **1. Sebutkan dan jelaskan aspek-aspek yang ada pada pemrograman berorientasi objek!**
@@ -55,7 +55,7 @@ Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengant
 
 ![](img/p4.PNG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+[kode program](../../src/1_Pengantar_Konsep_PBO/sepeda1841720144Rizqi.java)
 
 **6. Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol?**
 
@@ -64,7 +64,7 @@ Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengant
 ## Tugas
 ![](img/p3.PNG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+[kode program](../../src/1_Pengantar_Konsep_PBO/truck1841720144Rizqi.java)
 
 ## Kesimpulan
 
