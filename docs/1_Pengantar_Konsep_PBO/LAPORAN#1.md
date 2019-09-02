@@ -19,7 +19,8 @@ Didalam percobaan ini, kita akan mendemonstrasikan bagaimana membuat class, memb
 
 
 ![](img/p1.png)
-[ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/sepeda1841720144Rizqi.java)
+
+[kode program](../../src/1_Pengantar_Konsep_PBO/sepeda1841720144Rizqi.java)
 
 ### Percobaan 2
 
