@@ -14,4 +14,3 @@
 | Nama Lengkap | [Muhammad Rizqi Mahendra](https://github.com/mahe62) |
 | Kelas | TI-2D |
 
-ping
