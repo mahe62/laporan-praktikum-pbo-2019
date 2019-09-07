@@ -73,8 +73,8 @@ Mahasiswa1841720144Rizqi m1=new Mahasiswa1841720144Rizqi();
 **12. Instansiasi 2 objek lagi pada program diatas!**
 
 >![Percobaan 2 soal No. 12](img/p2-12.PNG)
-[Kode Program Mahasiswa1841720144Rizqi](../../src/2_Class_dan_Object\Mahasiswa1841720144Rizqi.java)  
-[Kode Program TestMahasiswa1841720144Rizqi](../../src/2_Class_dan_Object\TestMahasiswa1841720144Rizqi.java)
+[Kode Program Mahasiswa1841720144Rizqi](../../src/2_Class_dan_Object\Percobaan2\Mahasiswa1841720144Rizqi.java)  
+[Kode Program TestMahasiswa1841720144Rizqi](../../src/2_Class_dan_Object\Percobaan2\TestMahasiswa1841720144Rizqi.java)
 
 
 ### ****Percobaan 3****
