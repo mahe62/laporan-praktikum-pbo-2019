@@ -64,8 +64,8 @@ Mahasiswa1841720144Rizqi m1=new Mahasiswa1841720144Rizqi();
 
 **10. Apakah yang sebenarnya dilakukan pada sintaks program “mhs1.nim=101” ?**
 
->*Objek akan memanggil atribut mNim dan akan diisi dengan nilai "101"
-*
+>*Objek akan memanggil atribut mNim dan akan diisi dengan nilai "101"*
+
 **11. Apakah yang sebenarnya dilakukan pada sintaks program “mhs1.tampilBiodata()” ?**
 
 >*Objek akan memanggil method TampilBiodataRizqi() pada class Mahasiswa1841720144Rizqi.java*
