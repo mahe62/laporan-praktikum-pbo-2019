@@ -1,4 +1,5 @@
-# Laporan Praktikum #2 - Class dan Objek***
+# Laporan Praktikum #2 - Class dan Objek
+***
 ## Kompetensi
 
 Mahasiswa dapat memahami deskripsi dari class dan object
