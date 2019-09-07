@@ -64,11 +64,11 @@ Mahasiswa1841720144Rizqi m1=new Mahasiswa1841720144Rizqi();
 
 **10. Apakah yang sebenarnya dilakukan pada sintaks program “mhs1.nim=101” ?**
 
->Objek akan memanggil atribut mNim dan akan diisi dengan nilai "101"
-
+>*Objek akan memanggil atribut mNim dan akan diisi dengan nilai "101"
+*
 **11. Apakah yang sebenarnya dilakukan pada sintaks program “mhs1.tampilBiodata()” ?**
 
->Objek akan memanggil method TampilBiodataRizqi() pada class Mahasiswa1841720144Rizqi.java
+>*Objek akan memanggil method TampilBiodataRizqi() pada class Mahasiswa1841720144Rizqi.java*
 
 **12. Instansiasi 2 objek lagi pada program diatas!**
 
@@ -79,54 +79,53 @@ Mahasiswa1841720144Rizqi m1=new Mahasiswa1841720144Rizqi();
 
 ### ****Percobaan 3****
         
->*Menulis method yang memiliki argument/parameter dan memiliki return*
+**Menulis method yang memiliki argument/parameter dan memiliki return**
 
-![Percobaan 3](img/p3.PNG)
+>![Percobaan 3](img/p3.PNG)
+[Kode Program Barang1841720144Rizqi](../../src/2_Class_dan_Object/Percobaan3/Barang1841720144Rizqi.java)  
+[Kode Program TestBarang1841720144Rizqi](../../src/2_Class_dan_Object/Percobaan3/TestBarang1841720144Rizqi.java)
 
 **7. Apakah fungsi argumen dalam suatu method?**
->
+>*Untuk menentukan suatu nilai atau merubah suatu nilai*
+
 **8. Ambil kesimpulan tentang kegunaan dari kata kunci return , dan kapan suatu method harus memiliki return!**
 
- 
+ >*Return digunakan untuk method yang mempunyai nilai balik, suatu method harus memiliki return ketika method memiliki nilai balik bukan void.*
 
-## **Pertanyaan**
-**1. Sebutkan dan jelaskan aspek-aspek yang ada pada pemrograman berorientasi objek!**
-
-    Jawaban : Object, Class, Enkapsulasi, Inheritance dan Polimorfisme.
-
-**2. Apa yang dimaksud dengan object dan apa bedanya dengan class?**
-
-    Jawaban : Object adalah suatu rangkaian dalam program yang terdiri dari state dan behaviour. Object pada software dimodelkan sedemikian rupa sehingga mirip dengan objek yang ada di dunia nyata.
-    
-    Class adalah blueprint atau prototype dari objek. Ambil contoh objek sepeda. Terdapat berbagai macam sepeda di dunia, dari berbagai merk dan model.
-**3. Sebutkan salah satu kelebihan utama dari pemrograman berorientasi objek dibandingkan dengan pemrograman struktural!**
-
-    Jawaban : Perbedaan mendasar antara pemrograman terstruktur dengan pemrograman berorientasi objek (PBO) atau Object Oriented Programming (OOP) adalah: Pada pemrograman terstruktur, program dipecah kedalam sub-program atau fungsi. Sedangkan pada PBO, program dipecah kedalam objek, dimana objek tersebut membungkus state dan method.
-
-**4. Pada class Sepeda, terdapat state/atribut apa saja?**
-
-    Jawaban : Merek, kecepatan dan gear
-
-**5. Tambahkan atribut warna pada class Sepeda.**
-
-    Jawaban : 
-
-![](img/p4.PNG)
-
-[kode program](../../src/1_Pengantar_Konsep_PBO/sepeda1841720144Rizqi.java)
-
-**6. Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol?**
-
-    Jawaban : Karena class sepedagunung sudah extend atau sudah diwarisi oleh class sepeda.
 
 ## Tugas
-![](img/p3.PNG)
 
-[kode program](../../src/1_Pengantar_Konsep_PBO/truck1841720144Rizqi.java)
+**1. Suatu toko persewaan video game salah satu yang diolah adalah peminjaman, dimana data yang dicatat ketika ada orang yang melakukan peminjaman adalah id, nama member, nama game, dan harga yang harus dibayar. Setiap peminjaman bisa menampilkan data hasil peminjaman dan harga yang harus dibayar. Buatlah class diagram pada studi kasus diatas!**
+
+**2. Buatlah program dari class diagram yang sudah anda buat di no 1!**
+
+>![Tugas 1](img/t1.PNG)
+[Kode Program Game1841720144Rizqi](../../src/2_Class_dan_Object/Tugas1/Game1841720144Rizqi.java)  
+[Kode Program TestGame1841720144Rizqi](../../src/2_Class_dan_Object/Tugas1/TestGame1841720144Rizqi.java)
+
+**3. Buatlah program sesuai dengan class diagram berikut ini:**  
+
+![Soal tugas nomer 3](img/t2-soal.PNG)
+
+>![Tugas 2 nomer 3](img/t2.PNG)
+[Kode Program Lingkaran1841720144Rizqi](../../src/2_Class_dan_Object/Tugas2/Lingkaran1841720144Rizqi.java)  
+[Kode Program TestLingkaran1841720144Rizqi](../../src/2_Class_dan_Object/Tugas2/TestLingkaran1841720144Rizqi.java)
+
+**4. Buatlah program sesuai dengan class diagram berikut ini:**  
+
+![Soal Tugas Nomer 4](img/t3-soal.PNG)
+
+>![Tugas 3 nomer 4](img/t3.PNG)
+[Kode Program Barang1841720144Rizqi](../../src/2_Class_dan_Object/Tugas3/Barang1841720144Rizqi.java)  
+[Kode Program TestBarang1841720144Rizqi](../../src/2_Class_dan_Object/Tugas3/TestBarang1841720144Rizqi.java)
+
 
 ## Kesimpulan
 
-Dengan belajar Praktikum ini mengerti Pemrograman Orientasi Objek
+- Dengan belajar Praktikum ini mengerti Pemrograman Orientasi Objek
+- Dapat membdakan method yang mempunyai nilai balik maupun tidak mempunyai nilai balik
+- Dapal melakukan instansiasi objek
+
 
 ## Pernyataan Diri
 
