@@ -32,9 +32,9 @@ Mahasiswa dapat memahami deskripsi dari class dan object
 
     Perhatikan class diagram dibawah ini. Buatlah program berdasarkan class diagram tersebut!  
 
-![Percobaan 2 Soal](img/p2-soal.png)
+![Percobaan 2 Soal](img/p2-soal.PNG)
 
->![Percobaan 2](img/p2.png)
+>![Percobaan 2](img/p2.PNG)
                 
 **7. Jelaskan pada bagian mana proses pendeklarasian atribut pada program diatas!**
 
@@ -72,16 +72,16 @@ Mahasiswa1841720144Rizqi m1=new Mahasiswa1841720144Rizqi();
 
 **12. Instansiasi 2 objek lagi pada program diatas!**
 
->![Percobaan 2 soal No. 12](img/p2-12.png)
-[Kode Program Mahasiswa1841720144Rizqi](../../src/2_Class_dan_Object\Percobaan2\Mahasiswa1841720144Rizqi.java)
-[Kode Program TestMahasiswa1841720144Rizqi](../../src/2_Class_dan_Object\Percobaan2\TestMahasiswa1841720144Rizqi.java)
+>![Percobaan 2 soal No. 12](img/p2-12.PNG)
+[Kode Program Mahasiswa1841720144Rizqi](../../src/2_Class_dan_Object\Percobaan2\Mahasiswa1841720144Rizqi.JAVA)
+[Kode Program TestMahasiswa1841720144Rizqi](../../src/2_Class_dan_Object\Percobaan2\TestMahasiswa1841720144Rizqi.JAVA)
 
 
 ### ****Percobaan 3****
         
 >*Menulis method yang memiliki argument/parameter dan memiliki return*
 
-![Percobaan 3](img/p3.png)
+![Percobaan 3](img/p3.PNG)
 
 **7. Apakah fungsi argumen dalam suatu method?**
 >
