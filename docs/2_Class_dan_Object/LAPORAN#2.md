@@ -87,7 +87,7 @@ Mahasiswa1841720144Rizqi m1=new Mahasiswa1841720144Rizqi();
 >
 **8. Ambil kesimpulan tentang kegunaan dari kata kunci return , dan kapan suatu method harus memiliki return!**
 
-
+ 
 
 ## **Pertanyaan**
 **1. Sebutkan dan jelaskan aspek-aspek yang ada pada pemrograman berorientasi objek!**
