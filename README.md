@@ -42,4 +42,4 @@ Jika saya melakukan plagiasi, kecurangan, atau melanggar hak kekayaan intelektua
 
 Ttd,
 
-***(Muhammad Rizqi Mahendra)***
+***( Muhammad Rizqi Mahendra )***
