@@ -1,4 +1,4 @@
-package Percobaan2;
+package Pertanyaan3;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -25,7 +25,17 @@ public class Motor1841720144Rizqi {
 
     public void TambahKecepatanRizqi() {
         if (mKontakOn == true) {
-                mKecepatan += 5;  
+            if (mKecepatan < 100) {
+                mKecepatan += 50;
+                if (mKecepatan > 100) {
+                    mKecepatan = 100;
+                    System.out.println("Kecepatan mencapai batas maksimal");
+
+                }
+            } else {
+                mKecepatan = 100;
+                System.out.println("Kecepatan mencapai batas maksimal");
+            }
         } else {
             System.out.println("Kecepatan tidak bisa bertambah karena mesin Off \n");
         }

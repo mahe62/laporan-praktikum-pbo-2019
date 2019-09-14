@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Tugas4;
+package Tugas5;
 
 /**
  *
@@ -38,7 +38,13 @@ public class Anggota1841720144Rizqi {
         }
     }
     public void AngsurRizqi(int ags){
+        int des = 10 * mJumlahPinjaman/100;
+        if (ags<des) {
+            System.out.println("Maaf, angsuran harus 10% dari jumlah pinjaman");
+        }else{
             mJumlahPinjaman=mJumlahPinjaman-ags;
+        }
+        
     }
 
     public int GetJumlahPinjamanRizqi() {

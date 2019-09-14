@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Tugas4;
+package Tugas5;
 /**
  *
  * @author ASUS
@@ -29,7 +29,7 @@ public class TestKoperasi1841720144Rizqi {
         System.out.println("\nMembayar angsuran 3.000.000");
         donny.AngsurRizqi(3000000);
         System.out.println("Jumlah pinjaman saat ini: " + donny.GetJumlahPinjamanRizqi());
-        donny.AngsurRizqi(1000000);
+        donny.AngsurRizqi(1000);
         System.out.println("Jumlah pinjaman saat ini: " + donny.GetJumlahPinjamanRizqi());
 
     }
