@@ -125,4 +125,38 @@ Setelah menambah konstruktor pada class Anggota maka Atribut nama dan alamat sec
 >- **Class method.**  
 >   - method dimiliki oleh Class.
 >   - method class dideklarasikan menggunakan kata kunci **static**.
+***
+
+### ****Tugas****
+>1. Cobalah program dibawah ini dan tuliskan hasil outputnya  
+>![](img/t1-soal.PNG)
+
+`Hasil`  
+>![](img/t1.PNG)
+[Kode program Tugas 1  EncapDemo184120144Rizqi.java](../../src/3_Enkapsulasi/Tugas1/EncapDemo184120144Rizqi.java)  
+[Kode program Tugas 1  EncapTest1841720144Rizqi.java](../../src/3_Enkapsulasi/Tugas1/EncapTest1841720144Rizqi.java) 
+***
+
+>2. Pada program diatas, pada class EncapTest kita mengeset age dengan nilai 35, namun pada saat ditampilkan ke layar nilainya 30, jelaskan mengapa.
+
+`Jawab: `  
+>Karena pada kelas EncapDemo **SetAge** menunjukkan jika newAge lebih dari 30 maka age akan di set menjadi 30.  
+``` 
+        if (newAge>30) {
+            mAge = 30;
+            
+        }
+```
+***
+
+>3. Ubah program diatas agar atribut age dapat diberi nilai maksimal 30 dan minimal 18!  
+
+`Hasil`
+>![](img/t3.PNG)  
+>[Kode program Tugas 3  EncapDemo184120144Rizqi.java](../../src/3_Enkapsulasi/Tugas3/EncapDemo184120144Rizqi.java)  
+[Kode program Tugas 3  EncapTest1841720144Rizqi.java](../../src/3_Enkapsulasi/Tugas3/EncapTest1841720144Rizqi.java)
+***
+
+
+
 
