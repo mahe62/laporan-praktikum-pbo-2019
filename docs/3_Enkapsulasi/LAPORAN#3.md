@@ -53,7 +53,7 @@ Karena dalam program tertulis jika *Mesin dalam keadaan mati* maka tidak bisa me
 ![](img/p2-p3.PNG)
 ***
 
-### ****Percobaan 2 - Getter dan Setter****
+### ****Percobaan 3 - Getter dan Setter****
 >![](img/p3-soal.PNG)
 
 `Hasil`
@@ -62,3 +62,67 @@ Karena dalam program tertulis jika *Mesin dalam keadaan mati* maka tidak bisa me
 >[Kode program Percobaan 3  Anggota1841720144Rizqi.java](../../src/3_Enkapsulasi/Percobaan3/Anggota1841720144Rizqi.java)  
 >[Kode program Percobaan 3  KoperasiDemo1841720144Rizqi.java](../../src/3_Enkapsulasi/Percobaan3/KoperasiDemo1841720144Rizqi.java)
 ***
+### ****Percobaan 4 - Konstruktor, Instansiasi****
+
+>![](img/p3-soal.PNG)  
+>  
+>Buat program menggunakan Konstruktor, Instansiasi berdasarkan UML diatas!
+
+`Hasil`
+>![](img/p4.PNG) 
+>[Kode program Percobaan 4  Anggota1841720144Rizqi.java](../../src/3_Enkapsulasi/Percobaan4/Anggota1841720144Rizqi.java)   
+>[Kode program Percobaan 4  KoperasiDemo1841720144Rizqi.java](../../src/3_Enkapsulasi/Percobaan4/KoperasiDemo1841720144Rizqi.java)
+***
+### ****Pertanyaan – Percobaan 3 dan 4****
+>1. Apa yang dimaksud getter dan setter?  
+>`Jawab: `
+>- Getter adalah public method dan memiliki tipe data return, yang berfungsi untuk mendapatkan nilai dari atribut private.  
+>- Setter adalah public method yang tidak memliki tipe data return, yang berfungsi untuk memanipulasi nilai dari atribut private.
+
+>2. Apa kegunaan dari method getSimpanan()?  
+>`Jawab: `  
+Untuk mendapatkan nilai dari Atribut Simpanan.
+
+>3. Method apa yang digunakan untuk menambah saldo?  
+>`Jawab: `   
+Method yang digunakan untuk menambah saldo di program diatas ialah Pinjam : `PinjamRizqi();`.
+
+>4. Apa yand dimaksud konstruktor?  
+>`Jawab: `  
+Konstruktor mirip dengan method cara deklarasinya akan tetapi tidak *memiliki tipe return*. Dan konstruktor dieksekusi ketika instan dari objek dibuat. Jadi setiap kali sebuat objek dibuat dengan keyword **new()** maka konstruktor akan dieksekusi. 
+
+>5. Sebutkan aturan dalam membuat konstruktor?  
+>`Jawab: `   
+>- **Nama konstruktor harus sama dengan nama class.**
+>-  Konstruktor tidak memiliki tipe data method.
+>- Konstruktor hanya jalan saat proses instansiasi.
+>-  Selalu memiliki modifier access public.
+>- Tidak bisa memiliki return.
+
+
+>6. Apakah boleh konstruktor bertipe private?  
+>`Jawab: `  
+>Di java kita dapat memiliki konstruktor dengan modifier private, protected, public or default.
+
+>7. Kapan menggunakan parameter dengan passing parameter?  
+>`Jawab: `  
+Setelah menambah konstruktor pada class Anggota maka Atribut nama dan alamat secara otomatis harus diset terlebih dahulu dengan melakukan passing parameter jika melakukan instansiasi class Anggota.
+
+>8. Apa perbedaan atribut class dan instansiasi atribut?  
+>`Jawab: `  
+>- **Instansiasi atribut.** 
+>   - Atribut yang dimiliki oleh objek hasil instansiasi.
+>   - Untuk akses atribut, sebelumnya harus membuat objek terlebih dahulu.  
+>- **Class atribut.**  
+>   - atribut dimiliki oleh Class.
+>   - atribut class dideklarasikan menggunakan kata kunci **static**.
+
+>9. Apa perbedaan class method dan instansiasi method?  
+>`Jawab: `   
+>- **Instansiasi method.** 
+>   - Atribut yang dimiliki oleh objek hasil instansiasi.
+>   - Untuk akses, method sebelumnya harus membuat objek terlebih dahulu.  
+>- **Class method.**  
+>   - method dimiliki oleh Class.
+>   - method class dideklarasikan menggunakan kata kunci **static**.
+
