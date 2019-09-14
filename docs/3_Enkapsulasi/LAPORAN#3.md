@@ -155,7 +155,7 @@ Setelah menambah konstruktor pada class Anggota maka Atribut nama dan alamat sec
 >![](img/t3.PNG)  
 >[Kode program Tugas 3  EncapDemo184120144Rizqi.java](../../src/3_Enkapsulasi/Tugas3/EncapDemo184120144Rizqi.java)  
 [Kode program Tugas 3  EncapTest1841720144Rizqi.java](../../src/3_Enkapsulasi/Tugas3/EncapTest1841720144Rizqi.java)
-***
+*** 
 
 
 
