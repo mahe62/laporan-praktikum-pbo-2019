@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Tugas1;
+package Tugas3;
 
 /**
  *
@@ -26,6 +26,8 @@ public class EncapDemo184120144Rizqi {
         if (newAge>30) {
             mAge = 30;
             
+        }else if (newAge<18) {
+            mAge = 18;
         }else{
             mAge =newAge;
         }
