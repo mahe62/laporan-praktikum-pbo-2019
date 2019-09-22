@@ -169,17 +169,18 @@ Jadi untuk apakah sintaks p.getMobil().getMerk() yang ada di dalam method main t
 >Jadi sintaks tersebut digunakan untuk menampilkan atribut merek pada kelas mobil.
 ***
 ### Percobaan 3
-
-
-
-
-
-
-
-
-
-
-
+>![](img/P3/soal.PNG)  
+`Hasil`  
+>![](img/P3/1.PNG)
+>
+>[Kode Program Pegawai1841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan3/Pegawai1841720144Rizqi.java)
+>  
+>![](img/P3/2.PNG)  
+>[Kode Program KeretaApi1841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan3/KeretaApi1841720144Rizqi.java)
+>
+>![](img/P3/main.PNG)  
+>
+>[Kode Program MainPercobaan31841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan3/MainPercobaan31841720144Rizqi.java)
 
 
 
