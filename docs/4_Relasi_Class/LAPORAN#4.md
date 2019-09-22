@@ -182,5 +182,96 @@ Jadi untuk apakah sintaks p.getMobil().getMerk() yang ada di dalam method main t
 >
 >[Kode Program MainPercobaan31841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan3/MainPercobaan31841720144Rizqi.java)
 
+***
+### Pertanyaan Percobaan 3
+1. Di dalam method info() pada class KeretaApi, baris this.masinis.info() dan this.asisten.info() digunakan untuk apa ?  
+`Jawab`  
+>untuk menampilkan nilai pada atribut masinis dan asisten.
+---
+2. Buatlah main program baru dengan nama class MainPertanyaan pada package yang sama. Tambahkan kode berikut pada method main() !
+```
+Pegawai masinis = new Pegawai("1234", "Spongebob Squarepants");
+KeretaApi keretaApi = new KeretaApi("Gaya Baru", "Bisnis", masinis);
+System.out.println(keretaApi.info());
+```
+`Hasil`
+>![](img/P3/main-pertanyaan-error.PNG)
+---
+3. Apa hasil output dari main program tersebut ? Mengapa hal tersebut dapat terjadi ?  
+`Jawab`  
+>Hasilnya error, karena atribut asisten pada methode info tidak dideklarasikan. senhingga program error.
+---
+4. Perbaiki class KeretaApi sehingga program dapat berjalan !  
+`Jawab`  
+>![](img/P3/fix-kereta.PNG)
+>
+>[Kode Program KeretaApi21841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan3/KeretaApi21841720144Rizqi.java)
+>
+>![](img/P3/fix-main.PNG)
+>
+>[Kode Program MainPertanyaan1841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan3/MainPertanyaan1841720144Rizqi.java)
+***
+### Percobaan 4
+
+>![](img/P4/soal.PNG)
+
+`Hasil`
+>![](img/P4/1.PNG)
+>
+>[Kode Program Penumpang1841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan4/Penumpang1841720144Rizqi.java)
+>
+>![](img/P4/2.PNG)
+>
+>[Kode Program Kursi1841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan4/Kursi1841720144Rizqi.java)
+>
+>![](img/P4/3.PNG)
+>
+>[Kode Program Gerbong1841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan4/Gerbong1841720144Rizqi.java)
+>
+>![](img/P4/main.PNG)
+>
+>[Kode Program MainPercobaan41841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan4/MainPercobaan41841720144Rizqi.java)
+
+***
+### Pertanyaan Percobaan 4
+
+1. Pada main program dalam class MainPercobaan4, berapakah jumlah kursi dalam Gerbong A ?  
+`Jawab`  
+>Dalam Gerbong A terdapat 10 kursi dimana 
+Kursi nomor 1 telah terisi sementara kursi nomer 2 - 10 dalam keadaan kosong.
+***
+2. Perhatikan potongan kode pada method info() dalam class Kursi. Apa maksud kode tersebut ?
+```
+if (this.penumpang != null) {
+info += "Penumpang: " + penumpang.info() + "\n";
+}
+```    
+`Jawab`
+>Jadi jika ada penumpang maka penumpang maka akan dijadikan output.
+***
+3. Mengapa pada method setPenumpang() dalam class Gerbong, nilai nomor dikurangi dengan angka 1 ?  
+`Jawab `  
+>Karena looping pada init kursi dimulai dari 0.
+***
+4. Instansiasi objek baru budi dengan tipe Penumpang, kemudian masukkan objek baru tersebut pada gerbong dengan gerbong.setPenumpang(budi, 1). Apakah yang terjadi ?  
+`Jawab`
+>Kursi 1 yang sebelum nya mr.krab akan direplace dengan budi.
+>![](img/P4/pertanyaan.PNG)
+***
+5. Modifikasi program sehingga tidak diperkenankan untuk menduduki kursi yang sudah ada penumpang lain !  
+`Jawab`
+>![](img/P4/gerbong2.PNG)
+>
+>[Kode Program gerbong21841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan4/gerbong21841720144Rizqi.java)  
+>
+>![](img/P4/pertanyaan2.PNG)
+>
+>[Kode Program Pertanyaan1841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan4/Pertanyaan1841720144Rizqi.java)
+>
+***
+
+
+
+
 
 
