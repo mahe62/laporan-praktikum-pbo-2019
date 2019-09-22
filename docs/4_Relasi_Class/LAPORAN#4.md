@@ -270,6 +270,50 @@ info += "Penumpang: " + penumpang.info() + "\n";
 >
 ***
 
+### TUGAS
+Buatlah sebuah studi kasus, rancang dengan class diagram, kemudian implementasikan ke dalam program! Studi kasus harus mewakili relasi class dari percobaan‑percobaan yang telah dilakukan pada materi ini, setidaknya melibatkan minimal 4 class (class yang berisi main tidak dihitung).
+
+>![](img/Tugas/mobil.PNG)
+>
+>[Kode Program Mobil1841720144Rizqi.java](../../src/4_Relasi_Class/Tugas/Mobil1841720144Rizqi.java)
+>
+>![](img/Tugas/pengunjung.PNG)
+>
+>[Kode Program Pengunjung1841720144Rizqi.java](../../src/4_Relasi_Class/Tugas/Pengunjung1841720144Rizqi.java)
+>
+>![](img/Tugas/Slot.PNG)
+>
+>[Kode Program SlotParkir1841720144Rizqi.java](../../src/4_Relasi_Class/Tugas/SlotParkir1841720144Rizqi.java)
+>
+>![](img/Tugas/parkir.PNG)
+>
+>[Kode Program Parkir1841720144Rizqi.java](../../src/4_Relasi_Class/Tugas/Parkir1841720144Rizqi.java)
+>
+>![](img/Tugas/main.PNG)
+>
+>[Kode Program Main1841720144Rizqi.java](../../src/4_Relasi_Class/Tugas/Main1841720144Rizqi.java)
+***
+
+## Kesimpulan
+
+- Dapat Mengimplementasikan  Encapsulasi.
+- Melakukan Modifier.
+- Mengimplementasikan Setter dan Getter.
+- Dapat membuat Konstraktor,Instansiasi dan Mengimplementasikannya.
+
+***
+
+
+## Pernyataan Diri
+
+Saya menyatakan isi tugas, kode program, dan laporan praktikum ini dibuat oleh saya sendiri. Saya tidak melakukan plagiasi, kecurangan, menyalin/menggandakan milik orang lain.
+
+Jika saya melakukan plagiasi, kecurangan, atau melanggar hak kekayaan intelektual, saya siap untuk mendapat sanksi atau hukuman sesuai peraturan perundang-undangan yang berlaku.
+
+Ttd,
+
+***(Muhammad Rizqi Mahendra)***
+
 
 
 
