@@ -296,10 +296,9 @@ Buatlah sebuah studi kasus, rancang dengan class diagram, kemudian implementasik
 
 ## Kesimpulan
 
-- Dapat Mengimplementasikan  Encapsulasi.
-- Melakukan Modifier.
-- Mengimplementasikan Setter dan Getter.
-- Dapat membuat Konstraktor,Instansiasi dan Mengimplementasikannya.
+- Dapat melakukan Relasi antar class.
+- Dapat mengimplementasikan Relasi class pada program.
+- Mengenal relasi *multiplicity* maupun *one-to-one* 
 
 ***
 
