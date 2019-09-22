@@ -20,12 +20,15 @@ Setelah menempuh pokok bahasan ini, mahasiswa mampu:
 
 `hasil`
 >![](img/P1/1.PNG)
+>
 >[Kode program Percobaan 1 Processor1841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan1/Processor1841720144Rizqi.java)
 >
 >![](img/P1/2.PNG)
+>
 >[Kode program Percobaan 1 Laptop1841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan1/Laptop1841720144Rizqi.java)
 >
 >![](img/P1/main.PNG)
+>
 >[Kode Program MainPercobaan11841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan1/MainPercobaan11841720144Rizqi.java)
 >
 ***
@@ -80,7 +83,7 @@ Setelah menempuh pokok bahasan ini, mahasiswa mampu:
 ---
 
 5. Perhatikan pada class Laptop , Apakah guna dari sintaks proc.info() ?  
-`Jawab`
+`Jawab`    
 >untuk memanggil methode info pada kelas prosessor
 ---
 
@@ -95,7 +98,7 @@ Laptop l = new Laptop("Thinkpad", new Processor("Intel i5", 3));
 ```  
 - Bagaimanakah hasil program saat dijalankan, apakah ada perubahan ?
   
-`Jawab`
+`Jawab`  
 >- p merupakan instansiasi dari class prosessor.  
 >- Sama saja.
 ---
@@ -105,16 +108,67 @@ Laptop l = new Laptop("Thinkpad", new Processor("Intel i5", 3));
 >![](img/P2/p2-soal.PNG)
 
 `Hasil`
->![](img/P2/1.PNG)
->[Kode Program Mobil1841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan2/Mobil1841720144Rizqi.java)  
+>![](img/P2/1.PNG)  
+>
+>[Kode Program Mobil1841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan2/Mobil1841720144Rizqi.java)
+>
 >![](img/P2/2.PNG)
->[Kode Program Sopir1841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan2/Sopir1841720144Rizqi.java)    
+>
+>[Kode Program Sopir1841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan2/Sopir1841720144Rizqi.java)
+>
 >![](img/P2/3.PNG)
+>
 >[Kode Program Pelanggan1841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan2/Pelanggan1841720144Rizqi.java)     
+>
 >![](img/P2/main.PNG)
+>
 >[Kode Program MainPercobaan21841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan2/MainPercobaan21841720144Rizqi.java)    
 >
 ***
+
+### Pertanyaan Percobaan 2
+1. Perhatikan class Pelanggan. Pada baris program manakah yang menunjukan bahwa class Pelanggan memiliki relasi dengan class Mobil dan class Sopir ?   
+`Jawab`  
+>baris ke-15,16
+>```
+>private Mobil1841720144Rizqi mMobil;
+>private Sopir1841720144Rizqi mSopir;
+>```
+>baris ke-52
+>```
+>return mMobil.hitungBiayaMobilRizqi(hari) + mSopir.hitungBiayaSopirRizqi(hari);
+>```
+>
+***
+2. Perhatikan method hitungBiayaSopir pada class Sopir, serta method hitungBiayaMobil pada class Mobil. Mengapa menurut Anda method tersebut harus memiliki argument hari ?  
+`Jawab`  
+>Karena biaya sewa sopir maupun mobil dihitung per hari.
+***
+3. Perhatikan kode dari class Pelanggan. Untuk apakah perintah mobil.hitungBiayaMobil(hari) dan sopir.hitungBiayaSopir(hari) ?  
+`Jawab`  
+>untuk menghitung biaya total yang di terima oleh pelanggan. dimana biaya dari sewa mobil dijumlah dengan biaya sewa sopir sehingga akan menghasilkan total biaya yang harus di bayar oleh pelanggan.
+***
+4. Perhatikan class MainPercobaan2. Untuk apakah sintaks p.setMobil(m) dan p.setSopir(s) ?  
+`Jawab`  
+>untuk mengeset atribut yang telah di inputkan melalui variabel m dan s.
+***
+5. Perhatikan class MainPercobaan2. Untuk apakah proses p.hitungBiayaTotal() tersebut ?  
+`Jawab`  
+>untuk memanggil methode hitungbiayatotal pada kelas pelanggan.
+***
+6. Perhatikan class MainPercobaan2, coba tambahkan pada baris terakhir dari method main dan amati perubahan saat di‑run!
+```
+System.out.println(p.getMobil().getMerk());
+```
+Jadi untuk apakah sintaks p.getMobil().getMerk() yang ada di dalam method main tersebut?  
+`Jawab`  
+>![](img/P2/pertanyaan.PNG)  
+>
+>[Kode Program Pertanyaan1841720144Rizqi.java](../../src/4_Relasi_Class/Percobaan2/Pertanyaan1841720144Rizqi.java)
+>
+>Jadi sintaks tersebut digunakan untuk menampilkan atribut merek pada kelas mobil.
+***
+### Percobaan 3
 
 
 
