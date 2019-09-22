@@ -15,12 +15,12 @@ public class MainPertanyaan1841720144Rizqi {
 
         Pegawai1841720144Rizqi masinis = new Pegawai1841720144Rizqi("1234", "Spongebob Squarepants");
         Pegawai1841720144Rizqi asisten = new Pegawai1841720144Rizqi("4567", "Patrick Star");
-        KeretaApi1841720144Rizqi keretaApi = new KeretaApi1841720144Rizqi("Gaya Baru", "Bisnis", masinis, asisten);
+        KeretaApi21841720144Rizqi keretaApi = new KeretaApi21841720144Rizqi("Gaya Baru", "Bisnis", masinis, asisten);
 
         System.out.println(keretaApi.infoRizqi());
 
         Pegawai1841720144Rizqi masisnis1 = new Pegawai1841720144Rizqi("1234", "Spongebob");
-        KeretaApi1841720144Rizqi kereta1 = new KeretaApi1841720144Rizqi("Gaya Baru", "Bisnis", masisnis1);
+        KeretaApi21841720144Rizqi kereta1 = new KeretaApi21841720144Rizqi("Gaya Baru", "Bisnis", masisnis1);
         System.out.println(kereta1.infoRizqi());
     }
 }
