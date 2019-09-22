@@ -52,7 +52,7 @@ Setelah menempuh pokok bahasan ini, mahasiswa mampu:
 >Processor1841720144Rizqi p = new Processor1841720144Rizqi("Intel i5", 3);
 >Laptop1841720144Rizqi l = new Laptop1841720144Rizqi("Thinkpad", p);
 >```
->___
+>
 ---
 3. Perhatikan class Laptop, di antara 2 atribut yang dimiliki (merk dan proc), atribut manakah yang bertipe object ?  
 `Jawab`
@@ -76,7 +76,7 @@ Setelah menempuh pokok bahasan ini, mahasiswa mampu:
 >```
 >public void setmProcRizqi(Processor1841720144Rizqi mProc)
 >```
->___
+>
 ---
 
 5. Perhatikan pada class Laptop , Apakah guna dari sintaks proc.info() ?  
