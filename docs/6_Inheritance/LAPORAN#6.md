@@ -200,3 +200,59 @@ Jelaskan bagaimana urutan proses jalannya konstruktor saat objek test dibuat!
     >program diatas merupakan jenis Single Inheritance. karena class Manager dan staff tidak memiliki subclass.
 
 ***
+
+### Percobaan 6
+>![](img/Percobaan6/1.PNG)  
+>
+>![](img/Percobaan6/2.PNG)
+>
+>![](img/Percobaan6/3.PNG)
+>
+>![](img/Percobaan6/4.PNG)
+>
+>![](img/Percobaan6/5.PNG)
+>
+>![](img/Percobaan6/6.PNG)
+>
+>[Kode program Percobaan 6 Karyawan1841720144Rizqi.java](../../src/6_Inheritance/Percobaan6/Karyawan1841720144Rizqi.java)  
+>[Kode program Percobaan 6 Manager1841720144Rizqi.java](../../src/6_Inheritance/Percobaan6/Manager1841720144Rizqi.java)  
+>[Kode program Percobaan 6 Staff1841720144Rizqi.java](../../src/6_Inheritance/Percobaan6/Staff1841720144Rizqi.java)  
+>[Kode program Percobaan 6 StaffTetap1841720144Rizqi.java](../../src/6_Inheritance/Percobaan6/StaffTetap1841720144Rizqi.java)  
+>[Kode program Percobaan 6 StaffHarian1841720144Rizqi.java](../../src/6_Inheritance/Percobaan6/StaffHarian1841720144Rizqi.java)  
+>[Kode program Percobaan 6 inheritance11841720144Rizqi.java](../../src/6_Inheritance/Percobaan6/inheritance11841720144Rizqi.java)  
+
+***
+#### Pertanyaan 
+1.	Berdasarkan class diatas manakah yang termasuk single inheritance dan mana yang termasuk multilevel inheritance?    
+`Jawab` 
+    >- single inheritance :  
+    >  class manager karena tidak mempunyai subclass  . 
+    >- multilevel inheritance :  
+    >  class staff karena mempunyai subclass yaitu class stafTetap dan stafHarian.
+***
+2.	Perhatikan kode program class StaffTetap dan StaffHarian, atribut apa saja yang dimiliki oleh class tersebut? Sebutkan atribut mana saja yang diwarisi dari class Staff!    
+`Jawab` 
+    >- class StaffTetap  
+    >  golongan dan asuransi.
+    >- class StaffHarian  
+    >  jmlJamKerja. 
+    >- warisan dari class staff
+    >  nama,alamat,umur,jk,gaji,lembur,potongan. 
+
+***
+3.	Apakah fungsi potongan program berikut pada class StaffHarian   
+![](img/Percobaan6/SOAL/1.PNG)    
+`Jawab`   
+    >untuk memanggil consraktor pada superclass/class staff. 
+***
+4.	Apakah fungsi potongan program berikut pada class StaffHarian    
+![](img/Percobaan6/SOAL/2.PNG)  
+`Jawab` 
+    >untuk memanggil metode tampilDataStaff pada superclass/class staff
+***
+5.	Perhatikan kode program dibawah ini yang terdapat pada class StaffTetap
+![](img/Percobaan6/SOAL/3.PNG)  
+Terlihat dipotongan program diatas atribut gaji, lembur dan potongan dapat diakses langsung. Kenapa hal ini bisa terjadi dan bagaimana class StaffTetap memiliki atribut gaji, lembur, dan potongan padahal dalam class tersebut tidak dideklarasikan atribut gaji, lembur, dan potongan?  
+`Jawab` 
+    >karena atribut merupakan warisan dari superclass
+***
