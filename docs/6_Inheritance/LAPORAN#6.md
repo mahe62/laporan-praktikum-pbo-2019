@@ -76,6 +76,30 @@
 `Jawab`  
     >Karena Program class child B belum ditambahkan syntag extends ke class parent A dan modifiernya private, dimana private hanya bisa diakses jika satu class dan tidak bisa diakses di kelas lain.
 ### Percobaan 3 - Super
+>![](img/Percobaan3/1.PNG)  
+>
+>![](img/Percobaan3/2.PNG)
+>
+>![](img/Percobaan3/3.PNG)
+>
+>[Kode program Percobaan 3 Bangun1841720144Rizqi.java](../../src/6_Inheritance/Percobaan3/Bangun1841720144Rizqi.java)  
+[Kode program Percobaan 3 Tabung1841720144Rizqi.java](../../src/6_Inheritance/Percobaan3/Tabung1841720144Rizqi.java)  
+[Kode program Percobaan 3 Percobaan31841720144Rizqi.java](../../src/6_Inheritance/Percobaan3/Percobaan31841720144Rizqi.java)  
+***
 #### Pertanyaan 
+1. Jelaskan fungsi “super” pada potongan program berikut di class Tabung!    
+![](img/Percobaan3/SOAL/1.PNG)  
+`Jawab`  
+    >Super tersebut berfungsi untuk memanggil atribut dari class parent. dimana atribut phi dan r tersebut berorientasi pada phi dan r pada class paarent.
+2. Jelaskan fungsi “super” dan “this” pada potongan program berikut di class Tabung!  
+![](img/Percobaan3/SOAL/2.PNG) 
+`Jawab`  
+    >super untuk memanggil atribut pada class parent dan this untuk memanggil atribut yang telah ditentukan untuk menghindari dari penamaan atribut yang sama.
+    dalam program diatas **phi dan r** berorieantasi pada atribut class parent jadi **phi dan r** menggunakan super, sedangkan **t** menggunakan this untuk memanggil atribut **t**  yang telah ditentukan sebelumnya.
+ 
+3.	Jelaskan mengapa pada class Tabung tidak dideklarasikan atribut “phi” dan “r” tetapi class tersebut dapat mengakses atribut tersebut!  
+`Jawab`  
+    >karena class tabung merupakan turunan dari class bangun oleh karenanya class tabung bisa memanggil atribut dari class bangun dengan cara menggunakan **super**
+
 ### Percobaan 4 - super contsructor
 #### Pertanyaan 
