@@ -256,3 +256,48 @@ Terlihat dipotongan program diatas atribut gaji, lembur dan potongan dapat diaks
 `Jawab` 
     >karena atribut merupakan warisan dari superclass
 ***
+
+### TUGAS
+1.	Buatlah sebuah program dengan konsep pewarisan seperti pada class diagram berikut ini. Kemudian buatlah instansiasi objek untuk menampilkan data pada class Mac, Windows dan Pc!  
+![](img/Tugas/SOAL/1.PNG)  
+`Jawab`  
+    >![](img/Tugas/1.PNG)  
+    >
+    >![](img/Tugas/2.PNG)  
+    >
+    >![](img/Tugas/3.PNG)  
+    >
+    >![](img/Tugas/4.PNG)  
+    >
+    >![](img/Tugas/5.PNG)  
+    >
+    >![](img/Tugas/6.PNG)  
+    >
+    >[Kode program Tugas Komputer1841720144Rizqi.java](../../src/6_Inheritance/Tugas/Komputer1841720144Rizqi.java)   
+    >[Kode program Tugas Laptop1841720144Rizqi.java](../../src/6_Inheritance/Tugas/Laptop1841720144Rizqi.java)   
+    >[Kode program Tugas PC1841720144Rizqi.java](../../src/6_Inheritance/Tugas/PC1841720144Rizqi.java)   
+    >[Kode program Tugas Mac1841720144Rizqi.java](../../src/6_Inheritance/Tugas/Mac1841720144Rizqi.java)   
+    >[Kode program Tugas Windows1841720144Rizqi.java](../../src/6_Inheritance/Tugas/Windows1841720144Rizqi.java)   
+    >[Kode program Tugas Main1841720144Rizqi.java](../../src/6_Inheritance/Tugas/Main1841720144Rizqi.java)   
+
+***
+## Kesimpulan
+
+- Dapat Mengimplementasikan  Inheritance.
+- Dapat Mengimplementasikan  Single Inheritance.
+- Dapat Mengimplementasikan  Multilevel Inheritance.
+- Dapat membuat super Konstraktor dan Mengimplementasikannya.
+ 
+
+***
+
+
+## Pernyataan Diri
+
+Saya menyatakan isi tugas, kode program, dan laporan praktikum ini dibuat oleh saya sendiri. Saya tidak melakukan plagiasi, kecurangan, menyalin/menggandakan milik orang lain.
+
+Jika saya melakukan plagiasi, kecurangan, atau melanggar hak kekayaan intelektual, saya siap untuk mendapat sanksi atau hukuman sesuai peraturan perundang-undangan yang berlaku.
+
+Ttd,
+
+***(Muhammad Rizqi Mahendra)***
