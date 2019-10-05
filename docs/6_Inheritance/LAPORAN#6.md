@@ -72,6 +72,7 @@
 >[Kode program Percobaan 2 fix ClassA1841720144Rizqi.java](../../src/6_Inheritance/Percobaan2/fixed/ClassA1841720144Rizqi.java)  
 >[Kode program Percobaan 2 fix ClassB1841720144Rizqi.java](../../src/6_Inheritance/Percobaan2/fixed/ClassB1841720144Rizqi.java)  
 >[Kode program Percobaan 2 fix Percobaan21841720144Rizqi.java](../../src/6_Inheritance/Percobaan2/fixed/Percobaan21841720144Rizqi.java) 
+***
 2.	Jelaskan apa penyebab program pada percobaan 2 ketika dijalankan terdapat error!  
 `Jawab`  
     >Karena Program class child B belum ditambahkan syntag extends ke class parent A dan modifiernya private, dimana private hanya bisa diakses jika satu class dan tidak bisa diakses di kelas lain.
@@ -91,15 +92,71 @@
 ![](img/Percobaan3/SOAL/1.PNG)  
 `Jawab`  
     >Super tersebut berfungsi untuk memanggil atribut dari class parent. dimana atribut phi dan r tersebut berorientasi pada phi dan r pada class paarent.
+***    
 2. Jelaskan fungsi “super” dan “this” pada potongan program berikut di class Tabung!  
-![](img/Percobaan3/SOAL/2.PNG) 
+![](img/Percobaan3/SOAL/2.PNG)   
 `Jawab`  
     >super untuk memanggil atribut pada class parent dan this untuk memanggil atribut yang telah ditentukan untuk menghindari dari penamaan atribut yang sama.
     dalam program diatas **phi dan r** berorieantasi pada atribut class parent jadi **phi dan r** menggunakan super, sedangkan **t** menggunakan this untuk memanggil atribut **t**  yang telah ditentukan sebelumnya.
- 
+***
 3.	Jelaskan mengapa pada class Tabung tidak dideklarasikan atribut “phi” dan “r” tetapi class tersebut dapat mengakses atribut tersebut!  
 `Jawab`  
     >karena class tabung merupakan turunan dari class bangun oleh karenanya class tabung bisa memanggil atribut dari class bangun dengan cara menggunakan **super**
 
+***
+
 ### Percobaan 4 - super contsructor
+>![](img/Percobaan4/1.PNG)  
+>
+>![](img/Percobaan4/2.PNG)
+>
+>![](img/Percobaan4/3.PNG)
+>
+>![](img/Percobaan4/4.PNG)
+>
+>[Kode program Percobaan 4 ClassA1841720144Rizqi.java](../../src/6_Inheritance/Percobaan4/ClassA1841720144Rizqi.java)  
+>[Kode program Percobaan 4 ClassB1841720144Rizqi.java](../../src/6_Inheritance/Percobaan4/ClassB1841720144Rizqi.java)  
+>[Kode program Percobaan 4 ClassC1841720144Rizqi.java](../../src/6_Inheritance/Percobaan4/ClassC1841720144Rizqi.java)  
+>[Kode program Percobaan 4 Percobaan41841720144Rizqi.java](../../src/6_Inheritance/Percobaan4/Percobaan41841720144Rizqi.java)
+***  
 #### Pertanyaan 
+1.	Pada percobaan 4 sebutkan mana class yang termasuk superclass dan subclass, kemudian jelaskan alasannya!  
+`Jawab`  
+    >ClassA = Superclass dari classB  
+    >ClassB = SubClass dari classA  
+    >ClassB = Superclass dari classC      
+    >ClassC = SubClass dari classB  
+
+***
+2.	Ubahlah isi konstruktor default ClassC seperti berikut:  
+![](img/Percobaan4/SOAL/1.PNG)  
+Tambahkan kata super() di baris Pertaman dalam konstruktor defaultnya. Coba jalankan kembali class Percobaan4 dan terlihat tidak ada perbedaan dari hasil outputnya!    
+`Jawab`  
+    >![](img/Percobaan4/Pertanyaan/1.PNG)
+
+***
+3.	Ublah isi konstruktor default ClassC seperti berikut:  
+![](img/Percobaan4/SOAL/2.PNG)  
+Ketika mengubah posisi super() dibaris kedua dalam kontruktor defaultnya dan terlihat ada error. Kemudian kembalikan super() kebaris pertama seperti sebelumnya, maka errornya akan hilang.
+Perhatikan hasil keluaran ketika class Percobaan4 dijalankan. Kenapa bisa tampil output seperti berikut pada saat instansiasi objek test dari class ClassC
+![](img/Percobaan4/SOAL/3.PNG)    
+Jelaskan bagaimana urutan proses jalannya konstruktor saat objek test dibuat!  
+`Jawab`  
+    >![](img/Percobaan4/Pertanyaan/2.PNG)  
+    >![](img/Percobaan4/Pertanyaan/1.PNG)  
+    >karena pada constraktor classB terdapat syntag super(); maka constraktor dari superclass akan dipanggil.
+    ``` 
+    public ClassC1841720144Rizqi() {
+        super();
+        System.out.println("Konstraktor C dijalankan");
+    }
+    ```
+      
+    
+***
+4.	Apakah fungsi super() pada potongan program dibawah ini di ClassC!  
+![](img/Percobaan4/SOAL/4.PNG)    
+`Jawab`  
+    >Untuk memanggil constraktor pada superclass
+***
+### Percobaan 5
