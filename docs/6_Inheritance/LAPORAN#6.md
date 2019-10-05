@@ -160,3 +160,43 @@ Jelaskan bagaimana urutan proses jalannya konstruktor saat objek test dibuat!
     >Untuk memanggil constraktor pada superclass
 ***
 ### Percobaan 5
+>![](img/Percobaan5/1.PNG)  
+>
+>![](img/Percobaan5/2.PNG)
+>
+>![](img/Percobaan5/3.PNG)
+>
+>![](img/Percobaan5/4.PNG)
+>
+>[Kode program Percobaan 5 Karyawan1841720144Rizqi.java](../../src/6_Inheritance/Percobaan5/Karyawan1841720144Rizqi.java)  
+>[Kode program Percobaan 5 Manager1841720144Rizqi.java](../../src/6_Inheritance/Percobaan5/Manager1841720144Rizqi.java)   
+>[Kode program Percobaan 5 Staff1841720144Rizqi.java](../../src/6_Inheritance/Percobaan5/Staff1841720144Rizqi.java)   
+>[Kode program Percobaan 5 inheritance11841720144Rizqi.java](../../src/6_Inheritance/Percobaan5/inheritance11841720144Rizqi.java) 
+
+***
+#### Pertanyaan  
+1.	Sebutkan class mana yang termasuk super class dan sub class dari percobaan 1 diatas!  
+`Jawab`  
+    >class karyawan merupakan superclass dari class manager dan staff.  
+    >class manager merupakan subclass dari class karyawan.  
+    >class staff merupakan subclass dari class karyawan.  
+***
+2.	Kata kunci apakah yang digunakan untuk menurunkan suatu class ke class yang lain?    
+`Jawab` 
+    >exstends
+***
+3.	Perhatikan kode program pada class Manager, atribut apa saja yang dimiliki oleh class tersebut? Sebutkan atribut mana saja yang diwarisi dari class Karyawan!  
+`Jawab` 
+    >class Manager mempunyai atribut **tunjangan**.
+    >atribut **nama,alamat,jk,umur,gaji** merupakan warisan dari class karyawan 
+***
+4.	Jelaskan kata kunci super pada potongan program dibawah ini yang terdapat pada class Manager!  
+![](img/Percobaan5/SOAL/1.PNG)  
+`Jawab` 
+    >super tersebut untuk memanggil atribut gaji pada class parent yaitu class karyawan.   
+***
+5.	Program pada percobaan 5 diatas termasuk dalam jenis inheritance apa? Jelaskan alasannya!  
+`Jawab` 
+    >program diatas merupakan jenis Single Inheritance. karena class Manager dan staff tidak memiliki subclass.
+
+***
