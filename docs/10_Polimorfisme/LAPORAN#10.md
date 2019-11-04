@@ -116,11 +116,27 @@ dikenali oleh compiler dan method yang dijalankan oleh JVM berbeda.
 >Untuk dikembalikan ke instansiasi sesungguhnya sehingga dapat memanggil method getBillInfo() yang hanya ada di class ElectricityBill.
 ***
 ## Tugas
->![](T/soal.PNG)  
+>![](T/soal.png)  
 >[Kode program Tugas Barrier1841720144Rizqi.java](../../src/10_Polimorfisme/Tugas/Barrier1841720144Rizqi.java)  
 >[Kode program Tugas IDestroyable1841720144Rizqi.java](../../src/10_Polimorfisme/Tugas/IDestroyable1841720144Rizqi.java)  
 >[Kode program Tugas JumpingZombie1841720144Rizqi.java](../../src/10_Polimorfisme/Tugas/JumpingZombie1841720144Rizqi.java)  
 >[Kode program Tugas Plant1841720144Rizqi.java](../../src/10_Polimorfisme/Tugas/Plant1841720144Rizqi.java)  
 >[Kode program Tugas WalkingZombie1841720144Rizqi.java](../../src/10_Polimorfisme/Tugas/WalkingZombie1841720144Rizqi.java)  
 >[Kode program Tugas Zombie1841720144Rizqi.java](../../src/10_Polimorfisme/Tugas/Zombie1841720144Rizqi.java)  
->[Kode program Tugas Tester1841720144Rizqi.java](../../src/10_Polimorfisme/Tugas/Tester1841720144Rizqi.java)  
+>[Kode program Tugas Tester1841720144Rizqi.java](../../src/10_Polimorfisme/Tugas/Tester1841720144Rizqi.java)   
+***
+## Kesimpulan 
+* Konsep dan bentuk dasar polimorfisme
+* Konsep Virtual method Invication
+* Polimorfisme pada pembuatan heterogeneous collection,parameter/argument method
+* object casting untuk meng-ubah bentuk objek
+***
+## Pernyataan Diri
+
+Saya menyatakan isi tugas, kode program, dan laporan praktikum ini dibuat oleh saya sendiri. Saya tidak melakukan plagiasi, kecurangan, menyalin/menggandakan milik orang lain.
+
+Jika saya melakukan plagiasi, kecurangan, atau melanggar hak kekayaan intelektual, saya siap untuk mendapat sanksi atau hukuman sesuai peraturan perundang-undangan yang berlaku.
+
+Ttd,
+
+***(Muhammad Rizqi Mahendra)***
