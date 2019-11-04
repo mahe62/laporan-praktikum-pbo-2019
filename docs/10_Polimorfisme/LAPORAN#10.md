@@ -86,8 +86,41 @@ dikenali oleh compiler dan method yang dijalankan oleh JVM berbeda.
 >Karena Class PermanentEmployee dan InternshipEmployee merupakan Sub-class dari Class Employee.
 2. Perhatikan juga baris ke-9, mengapa array p juga biisi dengan objekobjek dengan tipe yang berbeda, yaitu objek pEmp (objek dari PermanentEmployee) dan objek eBill (objek dari ElectricityBilling) ?  
 `Jawab`  
->Karena ClassPermanentEmployee dan ElectricityBill Implementasi dari Class Payable.
+>Karena Class PermanentEmployee dan ElectricityBill Implementasi dari Class Payable.
 3. Perhatikan baris ke-10, mengapa terjadi error?  
 `Jawab`  
 >Karena eBill tidak mempunyai hubungan dengan Class Employee.
 ***
+### Percobaan 4 - Argumen polimorfisme, instanceod dan casting objek
+>![](P1/4.PNG)  
+>[Kode program Percobaan 4 Owner1841720144Rizqi.java](../../src/10_Polimorfisme/Percobaan1/Owner1841720144Rizqi.java)  
+>[Kode program Percobaan 4 Tester41841720144Rizqi.java](../../src/10_Polimorfisme/Percobaan1/Tester41841720144Rizqi.java)
+
+### Pertanyaan
+1. Perhatikan class Tester4 baris ke-7 dan baris ke-11, mengapa pemanggilan ow.pay(eBill) dan ow.pay(pEmp) bisa dilakukan, padahal jika diperhatikan method pay() yang ada di dalam class Owner memiliki argument/parameter bertipe Payable? Jika diperhatikan lebih detil eBill merupakan objek dari ElectricityBill dan pEmp merupakan objek dari PermanentEmployee?  
+`Jawab`  
+>Karena Class PermanentEmployee dan ElectricityBill Implementasi dari Class Payable.
+2. Jadi apakah tujuan membuat argument bertipe Payable pada method pay() yang ada di dalam class Owner?    
+`Jawab`  
+>Agar method pay() hanya bisa dijalankan pada Class yang mengimplementasikan Payable.
+3.  Coba pada baris terakhir method main() yang ada di dalam class Tester4 ditambahkan perintah ow.pay(iEmp);  
+>![](P1/p4-n3.PNG)  
+
+`Jawab`  
+> karena class InternshipEmployee bukan implementasi dari Class Payable
+4. Perhatikan class Owner, diperlukan untuk apakah sintaks p instanceof ElectricityBill pada baris ke-6 ?  
+`Jawab`  
+>untuk pengecekankan apakah objek p yang merupakan hasil instansiasi dari interface Payable terhadap Class ElectricityBill.
+5. Perhatikan kembali class Owner baris ke-7, untuk apakah casting objek disana (ElectricityBill eb = (ElectricityBill) p) diperlukan ? Mengapa objek p yang bertipe Payable harus di-casting ke dalam objek eb yang bertipe ElectricityBill ?  
+`Jawab`  
+>Untuk dikembalikan ke instansiasi sesungguhnya sehingga dapat memanggil method getBillInfo() yang hanya ada di class ElectricityBill.
+***
+## Tugas
+>![](T/soal.PNG)  
+>[Kode program Tugas Barrier1841720144Rizqi.java](../../src/10_Polimorfisme/Tugas/Barrier1841720144Rizqi.java)  
+>[Kode program Tugas IDestroyable1841720144Rizqi.java](../../src/10_Polimorfisme/Tugas/IDestroyable1841720144Rizqi.java)  
+>[Kode program Tugas JumpingZombie1841720144Rizqi.java](../../src/10_Polimorfisme/Tugas/JumpingZombie1841720144Rizqi.java)  
+>[Kode program Tugas Plant1841720144Rizqi.java](../../src/10_Polimorfisme/Tugas/Plant1841720144Rizqi.java)  
+>[Kode program Tugas WalkingZombie1841720144Rizqi.java](../../src/10_Polimorfisme/Tugas/WalkingZombie1841720144Rizqi.java)  
+>[Kode program Tugas Zombie1841720144Rizqi.java](../../src/10_Polimorfisme/Tugas/Zombie1841720144Rizqi.java)  
+>[Kode program Tugas Tester1841720144Rizqi.java](../../src/10_Polimorfisme/Tugas/Tester1841720144Rizqi.java)  
