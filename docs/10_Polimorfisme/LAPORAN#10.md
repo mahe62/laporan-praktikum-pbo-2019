@@ -116,7 +116,8 @@ dikenali oleh compiler dan method yang dijalankan oleh JVM berbeda.
 >Untuk dikembalikan ke instansiasi sesungguhnya sehingga dapat memanggil method getBillInfo() yang hanya ada di class ElectricityBill.
 ***
 ## Tugas
->![](T/soal.png)  
+![](T/soal.png)  
+>![](T/1.PNG)  
 >[Kode program Tugas Barrier1841720144Rizqi.java](../../src/10_Polimorfisme/Tugas/Barrier1841720144Rizqi.java)  
 >[Kode program Tugas IDestroyable1841720144Rizqi.java](../../src/10_Polimorfisme/Tugas/IDestroyable1841720144Rizqi.java)  
 >[Kode program Tugas JumpingZombie1841720144Rizqi.java](../../src/10_Polimorfisme/Tugas/JumpingZombie1841720144Rizqi.java)  
