@@ -64,8 +64,8 @@ ukuran yang sama dalam bentuk kotak dan masing masing komponen di letakkan pada 
 >![](P4/2.PNG)  
 >![](P4/3.PNG)  
 >![](P4/4.PNG)
->[Kode program Percobaan 3 Swing1841720144Rizqi.java](../../src/11_GUI/ManajemenLayout/Swing1841720144Rizqi.java)  
->[Kode program Percobaan 3 Swing1841720144Rizqi.form](../../src/11_GUI/ManajemenLayout/Swing1841720144Rizqi.form)  
+>[Kode program Percobaan 4 Swing1841720144Rizqi.java](../../src/11_GUI/PercobaanGUI1841720144Rizqi/Swing1841720144Rizqi.java)  
+>[Kode program Percobaan 4 Swing1841720144Rizqi.form](../../src/11_GUI/PercobaanGUI1841720144Rizqi/Swing1841720144Rizqi.form)  
 
 ### Pertanyaan 
 1. Apakah fungsi dari kode berikut?
@@ -79,4 +79,48 @@ ukuran yang sama dalam bentuk kotak dan masing masing komponen di letakkan pada 
 `Jawab/Hasil`  
 >![](P4/5.PNG)  
 ***
+### Percobaan 5 -  JTabPane, JTtree, JTable
+>![](P5/2.PNG)  
+>![](P5/1.PNG)  
+>[Kode program Percobaan 5 Swing21841720144Rizqi.java](../../src/11_GUI/PercobaanGUI2/Swing21841720144Rizqi.java)  
+>[Kode program Percobaan 5 Swing21841720144Rizqi.form](../../src/11_GUI/PercobaanGUI2/Swing21841720144Rizqi.form)
+### Pertanyaan
+1. Apa kegunaan komponen swing JTabPane, JTtree, pada percobaan 5?  
+`Jawab`  
+>* Fungsi komponen swing JTabpane digunakan untuk membuat panel yang menyediakan tab yang
+bisa membuat sekaligus beberapa halaman di satu panel.
+>* Fungsi komponen swing Jtree untuk menampilkan data dengan hirarki properti dengan
+menambahkan node ke node dan menyimpan konsep induk dan anak node.
+2. Modifikasi program untuk menambahkan komponen JTable pada tab Halaman 1 dan tab Halaman 2!  
+`Jawab/Hasil`  
+>![](P5/4.PNG)  
+>![](P5/3.PNG)
+***
+## Assigment
+Buatlah Sebuah Program yang mempunyai fungsi seperti kalkulator (mampu menjumlahkan, mengurangkan, mengalikan dan membagikan. Dengan tampilan seperti berikut.  
+![](Tugas/s1.png)  
+`Hasil`  
+>![](Tugas/1.PNG)  
+>![](Tugas/2.PNG)  
+>![](Tugas/3.PNG)
+***
+## Kesimpulan
+* Belajar JFrame.
+* Belajar Menangani Input Pada GUI.
+* Belajar Manajemen Layout:
+    - Border Layout.
+    - Grid Layout.
+    - Box Layout.
+* Belajar Membuat GUI Melalui IDE Netbeans.
+* Belajar Membuat JTabPane, JTtree, JTable.
+* Membuat kalkulator dengan GUI.
+***
+## Pernyataan Diri
 
+Saya menyatakan isi tugas, kode program, dan laporan praktikum ini dibuat oleh saya sendiri. Saya tidak melakukan plagiasi, kecurangan, menyalin/menggandakan milik orang lain.
+
+Jika saya melakukan plagiasi, kecurangan, atau melanggar hak kekayaan intelektual, saya siap untuk mendapat sanksi atau hukuman sesuai peraturan perundang-undangan yang berlaku.
+
+Ttd,
+
+***(Muhammad Rizqi Mahendra)***
