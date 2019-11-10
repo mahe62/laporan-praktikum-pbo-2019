@@ -38,7 +38,7 @@ ___
 >![](P3/1.PNG)  
 >![](P3/2.PNG)  
 >![](P3/3.PNG)  
->![](P3/4.PNG)
+>![](P3/4.PNG)  
 >[Kode program Percobaan 3 Border1841720144Rizqi.java](../../src/11_GUI/ManajemenLayout/Border1841720144Rizqi.java)  
 >[Kode program Percobaan 3 Grid1841720144Rizqi.java](../../src/11_GUI/ManajemenLayout/Grid1841720144Rizqi.java)  
 >[Kode program Percobaan 3 Box1841720144Rizqi.java](../../src/11_GUI/ManajemenLayout/Box1841720144Rizqi.java)  
@@ -63,7 +63,7 @@ ukuran yang sama dalam bentuk kotak dan masing masing komponen di letakkan pada 
 >![](P4/1.PNG)  
 >![](P4/2.PNG)  
 >![](P4/3.PNG)  
->![](P4/4.PNG)
+>![](P4/4.PNG)  
 >[Kode program Percobaan 4 Swing1841720144Rizqi.java](../../src/11_GUI/PercobaanGUI1841720144Rizqi/Swing1841720144Rizqi.java)  
 >[Kode program Percobaan 4 Swing1841720144Rizqi.form](../../src/11_GUI/PercobaanGUI1841720144Rizqi/Swing1841720144Rizqi.form)  
 
