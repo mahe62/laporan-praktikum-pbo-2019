@@ -4,8 +4,8 @@ Setelah menempuh materi percobaan ini, mahasiswa mampu mengenal:
 1. Menggunakan paradigma berorientasi objek untuk interaksi dengan database
 2. Membuat backend dan frontend
 3. Membuat form sebagai frontend
----
-## Ringkasan Materi
+    ---
+    ## Ringkasan Materi
 
 * Membuat database dan tabel-tabelnya.
 * Membuat backend yang berisi class-class yang mewakili data yang ada pada database, dan class helper untuk melakukan eksekusi query database.
